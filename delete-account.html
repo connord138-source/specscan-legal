@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpecScan - Delete Account</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: white;
+            font-weight: bold;
+        }
+        h1 {
+            color: #1a1a1a;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #777;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .info-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+        .steps {
+            background: #e8f5e9;
+            border-left: 4px solid #4CAF50;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+        .steps h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .steps ol {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        .steps li {
+            margin: 10px 0;
+        }
+        .email-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin: 20px auto;
+            display: block;
+            text-align: center;
+            max-width: 300px;
+        }
+        .email-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        .data-list {
+            background: white;
+            border: 2px solid #e9ecef;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .data-list h4 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .data-list ul {
+            margin: 10px 0;
+            padding-left: 25px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #e9ecef;
+            color: #6c757d;
+        }
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">S</div>
+        <h1>Delete Your SpecScan Account</h1>
+        <p class="subtitle">We're sorry to see you go</p>
+
+        <div class="info-box">
+            <p><strong>📧 To request account deletion, please email us at:</strong></p>
+            <p style="font-size: 1.2em; text-align: center; margin: 15px 0;">
+                <strong>support@specscan.net</strong>
+            </p>
+        </div>
+
+        <a href="mailto:support@specscan.net?subject=Account%20Deletion%20Request&body=I%20would%20like%20to%20request%20deletion%20of%20my%20SpecScan%20account.%0A%0AAccount%20Email%3A%20%5BYour%20email%20here%5D%0A%0AReason%20(optional)%3A%20" class="email-button">
+            📧 Email Deletion Request
+        </a>
+
+        <div class="steps">
+            <h3>🔄 Deletion Process</h3>
+            <ol>
+                <li><strong>Send Request:</strong> Email us at support@specscan.net with your account email address</li>
+                <li><strong>Verification:</strong> We'll verify your identity to protect your account security</li>
+                <li><strong>Processing:</strong> Your account and data will be deleted within 30 days</li>
+                <li><strong>Confirmation:</strong> You'll receive a confirmation email once deletion is complete</li>
+            </ol>
+        </div>
+
+        <div class="warning-box">
+            <h3>⚠️ What Gets Deleted</h3>
+            <p>When you delete your account, the following data will be permanently removed:</p>
+            <div class="data-list">
+                <ul>
+                    <li>✓ Your account information (email, profile)</li>
+                    <li>✓ All VIN search history</li>
+                    <li>✓ Saved vehicles and favorites</li>
+                    <li>✓ Subscription information</li>
+                    <li>✓ Usage data and preferences</li>
+                </ul>
+            </div>
+            <p><strong>⏰ Processing Time:</strong> Up to 30 days</p>
+            <p><strong>🔄 Reversible:</strong> No - this action cannot be undone</p>
+        </div>
+
+        <div class="info-box">
+            <h3>📝 What to Include in Your Request</h3>
+            <p>To help us process your request quickly, please include:</p>
+            <ul>
+                <li>The email address associated with your SpecScan account</li>
+                <li>Subject line: "Account Deletion Request"</li>
+                <li>Any additional information that helps verify your identity</li>
+            </ul>
+        </div>
+
+        <div class="info-box" style="background: #fff3cd; border-color: #ffc107;">
+            <h3>🤔 Before You Delete</h3>
+            <p><strong>Consider these alternatives:</strong></p>
+            <ul>
+                <li><strong>Downgrade:</strong> Switch to a free account if cost is a concern</li>
+                <li><strong>Pause:</strong> Simply stop using the app - your data stays secure</li>
+                <li><strong>Help:</strong> Contact support if you're experiencing issues</li>
+            </ul>
+        </div>
+
+        <div class="data-list">
+            <h4>📋 Data Retention Policy</h4>
+            <p>After deletion:</p>
+            <ul>
+                <li><strong>Immediate:</strong> Account access is revoked</li>
+                <li><strong>30 days:</strong> All personal data is permanently deleted</li>
+                <li><strong>Legal requirements:</strong> Some data may be retained for legal/regulatory compliance (e.g., payment records)</li>
+                <li><strong>Anonymized data:</strong> Aggregated, anonymized usage statistics may be retained for analytics</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <h4>Need Help?</h4>
+            <p>
+                <strong>Email:</strong> <a href="mailto:support@specscan.net">support@specscan.net</a><br>
+                <strong>Response Time:</strong> 2-3 business days
+            </p>
+            <p style="margin-top: 30px;">
+                <a href="index.html">← Back to Legal Documents</a> | 
+                <a href="privacy-policy.html">Privacy Policy</a> | 
+                <a href="terms-of-service.html">Terms of Service</a>
+            </p>
+            <p style="margin-top: 20px; color: #adb5bd; font-size: 0.85em;">
+                © 2025 SpecScan VIN Decoder. All rights reserved.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
